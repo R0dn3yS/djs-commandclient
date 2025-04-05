@@ -51,7 +51,7 @@ export class CommandClient extends Client {
       guild: msg.guild ?? undefined,
     }
 
-    if (command.ownerOnly) {
+    if (command.ownerOnly && !this.owners.includes(msg.author.id)) {
       return this.emit('commandOwnerOnly', ctx);
     }
 

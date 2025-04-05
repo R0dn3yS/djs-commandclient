@@ -1,5 +1,5 @@
-import { Command } from '../classes/command.ts';
-import { CommandContext } from '../classes/commandcontext.ts';
+import { Command } from '../../classes/command.ts';
+import { CommandContext } from '../../classes/commandcontext.ts';
 
 export default class PingCommand extends Command {
   override name = 'ping';

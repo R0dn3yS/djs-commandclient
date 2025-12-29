@@ -1,7 +1,7 @@
-import { join } from "node:path";
-import { Command } from "./command.ts";
-import { CommandClient } from "./commandclient.ts";
-import { walk } from 'jsr:@std/fs';
+import { join } from 'node:path';
+import { Command } from './command.ts';
+import { CommandClient } from './commandclient.ts';
+import { walk } from 'jsr:@std/fs@1.0.21';
 
 export class CommandsLoader {
   client: CommandClient;

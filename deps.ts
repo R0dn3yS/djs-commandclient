@@ -1,1 +1,1 @@
-export * from 'npm:discord.js@14.18.0';
+export * from 'npm:discord.js@14.25.1';
